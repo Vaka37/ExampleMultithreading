@@ -54,6 +54,7 @@ final class TaskTwoPointTwoViewController: UIViewController {
         
         /// Меняем приоритеты
         /// Печатает 2 потом 1
+        //MARK: - TODO
 //        thread1.qualityOfService = .background
 //        thread2.qualityOfService = .userInitiated
         ///Печатает 1 потом 2
