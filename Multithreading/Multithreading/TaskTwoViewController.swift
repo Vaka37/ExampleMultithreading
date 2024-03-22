@@ -100,7 +100,7 @@ final class TaskTwoPointFourViewController: UIViewController {
     /// A, C, B потому что сначало распечатается все что на главном потоке в оновной очереди а потом то что стоит в очереди
 }
 
-final class TaskThreePointThreeViewController: UIViewController {
+final class TaskThreePointViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(2)
