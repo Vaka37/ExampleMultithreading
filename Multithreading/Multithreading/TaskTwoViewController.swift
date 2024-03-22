@@ -54,6 +54,7 @@ final class TaskTwoPointTwoViewController: UIViewController {
         
         /// Меняем приоритеты
         /// Печатает 2 потом 1
+        //MARK: - TODO
 //        thread1.qualityOfService = .background
 //        thread2.qualityOfService = .userInitiated
         ///Печатает 1 потом 2
@@ -99,7 +100,7 @@ final class TaskTwoPointFourViewController: UIViewController {
     /// A, C, B потому что сначало распечатается все что на главном потоке в оновной очереди а потом то что стоит в очереди
 }
 
-final class TaskThreePointThreeViewController: UIViewController {
+final class TaskThreePointViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(2)
