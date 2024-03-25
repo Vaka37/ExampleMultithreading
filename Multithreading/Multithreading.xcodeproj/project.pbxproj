@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1096257A2BAF7CE400846EBE /* TaskFivePointTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109625792BAF7CE400846EBE /* TaskFivePointTwoViewController.swift */; };
 		1098B5202BA87CBB00950B48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098B51F2BA87CBB00950B48 /* AppDelegate.swift */; };
 		1098B5222BA87CBB00950B48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098B5212BA87CBB00950B48 /* SceneDelegate.swift */; };
-		1098B5242BA87CBB00950B48 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098B5232BA87CBB00950B48 /* FirstViewController.swift */; };
 		1098B5292BA87CBD00950B48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1098B5282BA87CBD00950B48 /* Assets.xcassets */; };
 		1098B5372BA87CBD00950B48 /* MultithreadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098B5362BA87CBD00950B48 /* MultithreadingTests.swift */; };
 		1098B5412BA87CBD00950B48 /* MultithreadingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098B5402BA87CBD00950B48 /* MultithreadingUITests.swift */; };
 		1098B5432BA87CBD00950B48 /* MultithreadingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098B5422BA87CBD00950B48 /* MultithreadingUITestsLaunchTests.swift */; };
-		1098B5502BA8CE4500950B48 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098B54F2BA8CE4500950B48 /* SecondViewController.swift */; };
-		1098B5522BA8E08E00950B48 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098B5512BA8E08E00950B48 /* ThreeViewController.swift */; };
-		1098B5542BA8E97200950B48 /* TaskOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098B5532BA8E97200950B48 /* TaskOneViewController.swift */; };
-		10F04A002BAA402E001C3B67 /* TaskTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F049FF2BAA402E001C3B67 /* TaskTwoViewController.swift */; };
+		10E9A9B72BB0BDAF00EA71D7 /* TaskFivePointThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E9A9B62BB0BDAF00EA71D7 /* TaskFivePointThreeViewController.swift */; };
+		10E9A9B92BB0CBDD00EA71D7 /* TaskFivePointFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E9A9B82BB0CBDD00EA71D7 /* TaskFivePointFourViewController.swift */; };
+		10E9A9BB2BB0CCA300EA71D7 /* TaskFivePointThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E9A9BA2BB0CCA300EA71D7 /* TaskFivePointThree.swift */; };
+		10E9A9BD2BB0CF4C00EA71D7 /* TaskFivePointFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E9A9BC2BB0CF4C00EA71D7 /* TaskFivePointFour.swift */; };
+		10E9A9BF2BB0D72300EA71D7 /* TaskFivePointFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E9A9BE2BB0D72300EA71D7 /* TaskFivePointFiveViewController.swift */; };
+		10F04A002BAA402E001C3B67 /* TaskFiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F049FF2BAA402E001C3B67 /* TaskFiveController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		109625792BAF7CE400846EBE /* TaskFivePointTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFivePointTwoViewController.swift; sourceTree = "<group>"; };
 		1098B51C2BA87CBB00950B48 /* Multithreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multithreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1098B51F2BA87CBB00950B48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1098B5212BA87CBB00950B48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1098B5232BA87CBB00950B48 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		1098B5282BA87CBD00950B48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1098B52D2BA87CBD00950B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1098B5322BA87CBD00950B48 /* MultithreadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultithreadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,10 +51,12 @@
 		1098B53C2BA87CBD00950B48 /* MultithreadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultithreadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1098B5402BA87CBD00950B48 /* MultithreadingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultithreadingUITests.swift; sourceTree = "<group>"; };
 		1098B5422BA87CBD00950B48 /* MultithreadingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultithreadingUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1098B54F2BA8CE4500950B48 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		1098B5512BA8E08E00950B48 /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
-		1098B5532BA8E97200950B48 /* TaskOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskOneViewController.swift; sourceTree = "<group>"; };
-		10F049FF2BAA402E001C3B67 /* TaskTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTwoViewController.swift; sourceTree = "<group>"; };
+		10E9A9B62BB0BDAF00EA71D7 /* TaskFivePointThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFivePointThreeViewController.swift; sourceTree = "<group>"; };
+		10E9A9B82BB0CBDD00EA71D7 /* TaskFivePointFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFivePointFourViewController.swift; sourceTree = "<group>"; };
+		10E9A9BA2BB0CCA300EA71D7 /* TaskFivePointThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFivePointThree.swift; sourceTree = "<group>"; };
+		10E9A9BC2BB0CF4C00EA71D7 /* TaskFivePointFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFivePointFour.swift; sourceTree = "<group>"; };
+		10E9A9BE2BB0D72300EA71D7 /* TaskFivePointFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFivePointFiveViewController.swift; sourceTree = "<group>"; };
+		10F049FF2BAA402E001C3B67 /* TaskFiveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFiveController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +109,13 @@
 			children = (
 				1098B51F2BA87CBB00950B48 /* AppDelegate.swift */,
 				1098B5212BA87CBB00950B48 /* SceneDelegate.swift */,
-				1098B5232BA87CBB00950B48 /* FirstViewController.swift */,
-				1098B54F2BA8CE4500950B48 /* SecondViewController.swift */,
-				1098B5512BA8E08E00950B48 /* ThreeViewController.swift */,
-				1098B5532BA8E97200950B48 /* TaskOneViewController.swift */,
-				10F049FF2BAA402E001C3B67 /* TaskTwoViewController.swift */,
+				10F049FF2BAA402E001C3B67 /* TaskFiveController.swift */,
+				10E9A9BA2BB0CCA300EA71D7 /* TaskFivePointThree.swift */,
+				10E9A9BC2BB0CF4C00EA71D7 /* TaskFivePointFour.swift */,
+				109625792BAF7CE400846EBE /* TaskFivePointTwoViewController.swift */,
+				10E9A9B62BB0BDAF00EA71D7 /* TaskFivePointThreeViewController.swift */,
+				10E9A9B82BB0CBDD00EA71D7 /* TaskFivePointFourViewController.swift */,
+				10E9A9BE2BB0D72300EA71D7 /* TaskFivePointFiveViewController.swift */,
 				1098B5282BA87CBD00950B48 /* Assets.xcassets */,
 				1098B52D2BA87CBD00950B48 /* Info.plist */,
 			);
@@ -262,13 +268,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1098B5542BA8E97200950B48 /* TaskOneViewController.swift in Sources */,
-				1098B5502BA8CE4500950B48 /* SecondViewController.swift in Sources */,
-				1098B5242BA87CBB00950B48 /* FirstViewController.swift in Sources */,
+				10E9A9B92BB0CBDD00EA71D7 /* TaskFivePointFourViewController.swift in Sources */,
+				10E9A9B72BB0BDAF00EA71D7 /* TaskFivePointThreeViewController.swift in Sources */,
 				1098B5202BA87CBB00950B48 /* AppDelegate.swift in Sources */,
-				10F04A002BAA402E001C3B67 /* TaskTwoViewController.swift in Sources */,
+				10E9A9BF2BB0D72300EA71D7 /* TaskFivePointFiveViewController.swift in Sources */,
+				10E9A9BB2BB0CCA300EA71D7 /* TaskFivePointThree.swift in Sources */,
+				10F04A002BAA402E001C3B67 /* TaskFiveController.swift in Sources */,
+				10E9A9BD2BB0CF4C00EA71D7 /* TaskFivePointFour.swift in Sources */,
 				1098B5222BA87CBB00950B48 /* SceneDelegate.swift in Sources */,
-				1098B5522BA8E08E00950B48 /* ThreeViewController.swift in Sources */,
+				1096257A2BAF7CE400846EBE /* TaskFivePointTwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +373,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -420,6 +429,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
